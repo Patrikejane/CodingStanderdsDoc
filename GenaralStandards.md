@@ -181,7 +181,9 @@ class OrderManager {
 | Avoid Misleading Names | Prevents bugs and confusion |
 | Name for Intent | Communicates the purpose of code |
 
-Naming things is hard—but it's worth doing right. Your future self (and your teammates) will thank you!
+
+
+
 
 
 #  Comments and Documentation Guide
@@ -618,7 +620,11 @@ public FraudAssessment evaluateTransactionRisk(Transaction transaction, Customer
 - [JSDoc Documentation](https://jsdoc.app/)
 - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html#jsdoc)
 - [Oracle Javadoc Guide](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html)
-## Error Handling
+
+
+## 🚶🚶🚶🚶🚶🚶Inprogress🚶🚶🚶🚶🚶🚶
+
+# Error Handling
 
 Effective error handling prevents silent failures and provides valuable debugging information.
 
@@ -661,7 +667,7 @@ catch (Exception ex) {
 }
 ```
 
-## Testing
+# Testing
 
 Testing ensures code quality and prevents regressions when changes are made.
 
@@ -703,7 +709,7 @@ test('calculateTotal returns zero for empty array', () => {
 });
 ```
 
-## Code Review Process
+# Code Review Process
 
 Code reviews catch issues early and spread knowledge across the team.
 
@@ -736,7 +742,7 @@ if (isValid == true) {
 #### Review Comment:
 "This can be simplified to `if (isValid)` for better readability. Also, our error handling guidelines require a specific action when isValid is false."
 
-## Version Control
+# Version Control
 
 Version control practices maintain code history and facilitate collaboration.
 
@@ -777,17 +783,13 @@ master (production code)
 
 ---
 
-## Implementation
+# 🍼 Implementation
 
 To implement these standards:
 
 1. All new projects must adopt these standards from inception
 2. Existing projects should implement standards during regular maintenance
 3. Configure automated tools to enforce standards where possible:
-   - Linters
-   - Code formatters
-   - Static analysis tools
-   - Git hooks
 4. Include standards review in the code review process
 
 
